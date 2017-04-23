@@ -15,6 +15,6 @@ new_petal = petals - (number_x * 6)
   else new_petal == 6
     flower = "not at all"
   end
-  
+
 return flower
 end
