@@ -1,9 +1,9 @@
 def how_much_i_love_you(petals)
-number_x = (petals / 6).to_i
-new_petal = petals - (number_x * 6)
+  number_x = (petals / 6).to_i
+  new_petal = petals - (number_x * 6)
 
   if new_petal == 1
-   flower = "I love you"
+    flower = "I love you"
   elsif new_petal == 2
     flower = "a little"
   elsif new_petal == 3
@@ -16,5 +16,5 @@ new_petal = petals - (number_x * 6)
     flower = "not at all"
   end
 
-return flower
+  return flower
 end
