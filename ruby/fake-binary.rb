@@ -1,5 +1,4 @@
 # First attempt
-
 def fake_bin(s)
   array = s.chars
   array.map! do |i|
@@ -13,7 +12,6 @@ def fake_bin(s)
 end
 
 # Alternative solution (2nd)
-
 def fake_bin(string)
   string.chars.map { |char| char < '5' ? '0' : '1'}.join
 end
