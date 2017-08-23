@@ -9,7 +9,7 @@ def magical_well(a, b, n)
     b = b + 1
   end
 
-account
+  account
 end
 
 # refactored
