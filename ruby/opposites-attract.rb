@@ -7,5 +7,5 @@ def lovefunc( flower1, flower2 )
   else
     love = true
   end
-return love
+  return love
 end
