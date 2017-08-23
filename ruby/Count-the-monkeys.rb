@@ -10,4 +10,5 @@ def monkey_count(n)
   end
 
   return array
+
 end
