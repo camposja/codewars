@@ -1,19 +1,29 @@
 # README
 
-Code Wars (www.codewars.com) training Katas completed:
-
-JavaScript:
-* Even or Odd
-* Opposites Attract
+## Code Wars (www.codewars.com) training Katas completed:
 
 Ruby:
 
+* Breaking Chocolate Problem
 * Counting Sheep
+* Can Santa Save Christmas
+* Count the Monkeys
+* Count the Sheep
 * Even or Odd
-* I Love You Petals
-* Is This My Tail
+* I Love you Petals
+* Is This my Tail
 * Jenny’s Secret Message
 * Volume of Cuboid
 * Face Binary
 * Multiply
 * Opposites Attract
+* Magic Well
+* Square Every Digit
+* & Others
+
+JavaScript:
+* Even or Odd
+* Opposites Attract
+* Square Every Digit
+* Exes and Ohs
+* Is this a Triangle
