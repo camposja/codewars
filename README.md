@@ -1,6 +1,8 @@
-# README
+# Code Katas
 
-## Code Wars (www.codewars.com) training Katas completed:
+## Code Wars (https://www.codewars.com) training Katas completed:
+
+![](https://www.codewars.com/users/JJoseCCampos/badges/large)
 
 Ruby:
 
