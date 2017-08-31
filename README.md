@@ -29,3 +29,4 @@ JavaScript:
 * Square Every Digit
 * Exes and Ohs
 * Is this a Triangle
+* & Others
