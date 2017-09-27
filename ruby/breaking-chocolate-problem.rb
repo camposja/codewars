@@ -1,4 +1,4 @@
-# http://www.codewars.com/kata/breaking-chocolate-problem/train/ruby
+# http://www.codewars.com/kata/breaking-chocolate-problem/train/rubyi
 
 def break_chocolate(n, m)
   if (m + n) == 0
