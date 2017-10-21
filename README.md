@@ -10,7 +10,6 @@ Ruby:
 * Counting Sheep
 * Can Santa Save Christmas
 * Count the Monkeys
-* Count the Sheep
 * Even or Odd
 * I Love you Petals
 * Is This my Tail
@@ -19,7 +18,6 @@ Ruby:
 * Face Binary
 * Opposites Attract
 * Magic Well
-* Square Every Digit
 * & Others
 
 Python:
