@@ -29,33 +29,7 @@
 # end
 
 
-# # https://www.codewars.com/kata/sum-of-a-sequence/train/ruby
-# sample = [2,6,2]
-#
-# class Array; def sum; self.inject(0,:+); end; end
-#
-# def sequence_sum(begin_number, end_number, step)
-#   #your code here
-#   result = []
-#
-#   if begin_number > end_number
-#     return 0
-#   else
-#     result << begin_number
-#     equat = begin_number + step
-#     result << equat
-#       until result.last < end_number
-#         equat2 = equat + step
-#         result << equat2
-#         answer = result.sum
-#       end
-#   end
-#   print answer
-# end
-#
-# sequence_sum(1,5,1)
-#
-#
+
 #
 # class Array; def sum; self.inject(0,:+); end; end
 #
