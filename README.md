@@ -23,6 +23,10 @@ Ruby:
 * Square Every Digit
 * & Others
 
+Python:
+* Jenny's Secret Message
+* Calculate String Rotation
+
 JavaScript:
 * Even or Odd
 * Opposites Attract
