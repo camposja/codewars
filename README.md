@@ -17,7 +17,6 @@ Ruby:
 * Jenny’s Secret Message
 * Volume of Cuboid
 * Face Binary
-* Multiply
 * Opposites Attract
 * Magic Well
 * Square Every Digit
