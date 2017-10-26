@@ -1,44 +1,27 @@
-# File used only to run practice Python code
 
-# def words_to_marks(string):
-#     # Easy one
-#     list = string(list)
+
+for clicks in [0, 49, 74, 51, -1, 200]:
+    difference = clicks % 50
+    temp = 40 + difference
+    print ("The temperature is",temp)
+
 #
-#     for i in list
-#         print i
-
-
-# import turtle
 #
-# wn = turtle.Screen()
-# wn.bgcolor("lightgreen")        # set the window background color
-#
-# tess = turtle.Turtle()
-# tess.color("blue")              # make tess blue
-# tess.pensize(3)                 # set the width of her pen
-#
-# tess.forward(150)
-# tess.left(120)
-# tess.forward(150)
-#
-# wn.exitonclick()                # wait for a user click on the canvas
-
-
-import turtle              # <-- Here you ask python to call on a software library "turtle"
-
-def draw_square(t, sz):   # <-- Initializing a method "def_square" which takes two arguments t & SZ
-    """Make turtle t draw a square of with side sz."""  # <-- Just a string but missing print() so it does not render
-
-    for i in range(4):    # <-- in the method you begin an a FOR loop or function
-        t.forward(sz)     # <-- In the for loop you ask Turrle T to go forward a given number of size SZ squares
-        t.left(90)       # <-- Asking t Turle to turn counterclockwise 90 degress
-                         # <--  You asked the For loop to do this motion so it creates a line turns
-                         # <--  Then creates another lines and turns 4 times to create a square
-
-wn = turtle.Screen()              # Set up the window and its attributes
-wn.bgcolor("lightgreen")        # <-- Asking the WN you just declared to turn background lightgreen
-
-alex = turtle.Turtle()            # create alex
-draw_square(alex, 50)             # Call the function to draw the square passing the actual turtle and the actual side size
-
-wn.exitonclick()                # <-- Once the program recognizes the user Clicks it exits Turtle program
+# #For each click variable, calculate the temperature and print it as shown in the instructions
+# click_1 = 0
+# # TODO calculate the temperature, and report it back to the user
+# click_2 = 49
+# # TODO calculate the temperature, and report it back to the user
+# click_3 = 74
+# # TODO calculate the temperature, and report it back to the user
+# click_4 = 51
+# # TODO calculate the temperature, and report it back to the user
+# click_5 = -1
+# # TODO calculate the temperature, and report it back to the user
+# click_6 = 200
+# # TODO calculate the temperature, and report it back to the user
+# clicks_str = input("By how many clicks has the dial been turned?")
+# clicks = int(clicks_str)
+# clicks = clicks % 50
+# temperature = (40 + clicks) % 90
+# print("The temperature is", temperature)
