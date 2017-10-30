@@ -1,9 +1,46 @@
 
+def stairs(n):
+    line_str = ''
+    for i in range(n):
+        line_str = line_str + '#'
+        print(line_str)
 
-for clicks in [0, 49, 74, 51, -1, 200]:
-    difference = clicks % 50
-    temp = 40 + difference
-    print ("The temperature is",temp)
+def main():
+    return stairs(10)
+
+
+if __name__ == "__main__":
+    main()
+
+
+# output has to be
+# output = [B, B, B]
+# to do this I need to reverse the "excerpt clause"
+
+# class B(Exception):
+#     pass
+#
+# class C(B):
+#     pass
+#
+# class D(C):
+#     pass
+#
+# for cls in [B, C, D]:
+#     try:
+#         raise cls()
+#     except B:
+#         print("B")
+#     except C:
+#         print("C")
+#     except D:
+#         print("D")
+#
+
+# for clicks in [0, 49, 74, 51, -1, 200]:
+#     difference = clicks % 50
+#     temp = 40 + difference
+#     print ("The temperature is",temp)
 
 #
 #
