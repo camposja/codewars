@@ -1,16 +1,60 @@
+text = "word"
+letter_count = 0
 
-def stairs(n):
-    line_str = ''
-    for i in range(n):
-        line_str = line_str + '#'
-        print(line_str)
+def analyze_text(text):
+    letter_count = 0
+    for char in text:
+        if char.isalpha() is True:
+            letter_count = letter_count + 1
+        return (letter_count)
 
-def main():
-    return stairs(10)
+def analyze_e(text):
+    letter_e = 0
+    for letter in text:
+        if letter == "e":
+            letter_e = letter_e +1
+        if letter == "E":
+            letter_e = letter_e +1
+        return (letter_e)
 
+def figure_percent(letter_count, letter_e):
+    if letter_e == 0:
+        percentage = "0"
+    else:
+        percentage = (letter_e/letter_count)*100
+        percentage = str(percentage)
+    return (percentage)
+
+def main(text):
+    analyze_text(text)
+    analyze_e(text)
+    figure_percent
 
 if __name__ == "__main__":
-    main()
+    main(text)
+
+print("The text contains" + str(letter_count) + "alphabetic characters, of which " + str(letter_e) + " (" + percentage + "%) are 'e'.")
+
+
+# from test import testEqual
+#
+# def remove(substr,original_string):
+#     index = original_string.find(substr)
+#     if index < 0: # substr doesn't exist in original_string
+#         return original_string
+#     return_str = original_string[:index] + original_string[index+len(substr):]
+#     return return_str
+#
+# testEqual(remove('an', 'banana'), 'bana')
+# testEqual(remove('cyc', 'bicycle'), 'bile')
+# testEqual(remove('iss', 'Mississippi'), 'Missippi')
+# testEqual(remove('egg', 'bicycle'), 'bicycle')
+
+# def partial(substr,original_string):
+#     return_str = original_string[:index]
+#     print(return_str)
+#
+# partial('pine', 'pineapple')
 
 
 # output has to be
@@ -35,30 +79,3 @@ if __name__ == "__main__":
 #         print("C")
 #     except D:
 #         print("D")
-#
-
-# for clicks in [0, 49, 74, 51, -1, 200]:
-#     difference = clicks % 50
-#     temp = 40 + difference
-#     print ("The temperature is",temp)
-
-#
-#
-# #For each click variable, calculate the temperature and print it as shown in the instructions
-# click_1 = 0
-# # TODO calculate the temperature, and report it back to the user
-# click_2 = 49
-# # TODO calculate the temperature, and report it back to the user
-# click_3 = 74
-# # TODO calculate the temperature, and report it back to the user
-# click_4 = 51
-# # TODO calculate the temperature, and report it back to the user
-# click_5 = -1
-# # TODO calculate the temperature, and report it back to the user
-# click_6 = 200
-# # TODO calculate the temperature, and report it back to the user
-# clicks_str = input("By how many clicks has the dial been turned?")
-# clicks = int(clicks_str)
-# clicks = clicks % 50
-# temperature = (40 + clicks) % 90
-# print("The temperature is", temperature)
