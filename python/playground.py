@@ -33,7 +33,8 @@ def main(text):
 if __name__ == "__main__":
     main(text)
 
-print("The text contains" + str(letter_count) + "alphabetic characters, of which " + str(letter_e) + " (" + percentage + "%) are 'e'.")
+string = "The text contains" + str(letter_count) + "alphabetic characters, of which " + str(letter_e) + " (' + percentage + '%) are 'e'."
+print(string)
 
 
 # from test import testEqual
