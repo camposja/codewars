@@ -115,16 +115,38 @@
 #
 # puts "Visit Grandma again soon!"
 
-array = []
-word = "la"
+# array = []
+# word = "la"
+#
+# until word == "" || word == " "
+#   puts "type in one word at a time as many times as you would like"
+#
+#   word = gets.chomp
+#   array << word
+# end
+#
+# puts
+# puts "the sorted array is: "
+# puts array.sort
 
-until word == "" || word == " "
-  puts "type in one word at a time as many times as you would like"
+# word = "blah"
 
-  word = gets.chomp
-  array << word
-end
+# while word != "bye" do
+#   array = []
+#   puts "type in any word or type bye to end the program: "
+#   word = gets.chomp
+#   array << word
+# end
+#
+# puts "ditto on that"
+# array.each do |arr|
+#   puts arr.to_s
+# end
 
+foods = ['smoking', 'these', 'meats']
+
+puts foods
 puts
-puts "the sorted array is: "
-puts array.sort
+puts foods.to_s
+puts
+puts foods.join('!  :) ' + " 8)")
