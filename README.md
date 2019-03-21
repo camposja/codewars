@@ -9,14 +9,11 @@ Ruby:
 * Breaking Chocolate Problem
 * Counting Sheep
 * Can Santa Save Christmas
-* Count the Monkeys
 * Even or Odd
 * I Love you Petals
 * Is This my Tail
-* Jenny’s Secret Message
 * Volume of Cuboid
 * Face Binary
-* Opposites Attract
 * Magic Well
 * & Others
 
@@ -25,10 +22,12 @@ Python:
 * Calculate String Rotation
 
 JavaScript:
-* Even or Odd
+* Changing letters
+* No oddities here
 * Opposites Attract
 * Square Every Digit
 * Exes and Ohs
+* How green is my valley?
 * Is this a Triangle
 * Sentence Smash
 * & Others
